@@ -71,7 +71,7 @@ table{
 }
 
 td{
-  padding: 15px;
+  padding: 10px;
   border-top: 2px solid #000000;
   text-align:center;
 }
@@ -81,7 +81,7 @@ tr:nth-child(even){
 }
 
 tr:hover{
-  background-color: rgba(126, 8, 32, .25);
+  background-color: rgba(126, 8, 32,.25)
 }
 
 *:focus{
