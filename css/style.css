@@ -42,7 +42,7 @@ p{
 a{
   font-size: 16px;
   color: #B21F50;
-  text-decoration: underline;
+  text-decoration-line: underline;
   text-decoration-style: wavy;
 }
 
@@ -72,10 +72,8 @@ table{
 
 td{
   padding: 15px;
-}
-
-tr{
-
+  border-top: 2px solid #000000;
+  text-align:center;
 }
 
 tr:nth-child(even){ 
@@ -83,12 +81,11 @@ tr:nth-child(even){
 }
 
 tr:hover{
-  background-color: rgba(126, 8, 32, 0.25);
+  background-color: rgba(126, 8, 32, .25);
 }
 
 *:focus{
-  border: dashed 3px #417243;
-
+  border: 3px dashed #417243;
 }
 
 thead tr:first-child th:first-child{
@@ -116,6 +113,6 @@ footer{
   position:fixed;
   bottom:0;
   left:0;
-  width:100%;
+  right: 0;
 }
 
